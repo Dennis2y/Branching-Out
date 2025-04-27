@@ -32,7 +32,7 @@ def filter_users_by_email(email):
 
 
 if __name__ == "__main__":
-    filter_option = input("What would you like to filter by? (name, age, email): ").strip().lower()
+    filter_option = input("What would you like to filter by? (Options: 'name', 'age', 'email'): ").strip().lower()
 
     if filter_option == "name":
         name_to_search = input("Enter a name to filter users: ").strip()
